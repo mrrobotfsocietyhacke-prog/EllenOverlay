@@ -47,7 +47,7 @@ class ChatActivity : Activity() {
         }
 
         val title = TextView(this).apply {
-            text = "ELLEN // FSOCIETY"
+            this.text = "ELLEN // FSOCIETY"
             textSize = 20f
             setTextColor(Color.rgb(230, 70, 70))
             setPadding(0, 0, 0, 12)
@@ -107,7 +107,7 @@ class ChatActivity : Activity() {
         OverlayService.mood(OverlayService.Mood.TALK)
 
         val reply = TextView(this).apply {
-            text = "ELLEN\n..."
+            this.text = "ELLEN\n..."
             textSize = 16f
             setTextColor(Color.WHITE)
             setPadding(0, 10, 0, 10)
